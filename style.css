@@ -54,7 +54,12 @@ header > p > a:hover {
 /* Main Style */
 
 main > article {
-    padding: 100px 30px;
+    padding: 50px 30px;
+}
+
+main > article > ul {
+    margin: 50px 0;
+    padding: 5px;
 }
 
 main li {
@@ -62,4 +67,45 @@ main li {
     font-weight: bold;
     list-style: none;
     margin-bottom: 10px;
+}
+
+/* Containers com imagem */
+article.container-imagem {
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+article.container-imagem ul {
+    background-color: rgba(0, 0, 0, 0.300);
+    color: white;
+    display: inline-block;
+}
+
+/* Primeiro container com imagem */
+article#primeira-imagem {
+    background-image: url('images/img-002.jpg');
+}
+
+/* Segundo container com imagem */
+article#segunda-imagem {
+    background-image: url('images/img-001.jpg');
+}
+
+/* Footer Style */
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ccc;
+    text-decoration: underline;
 }
