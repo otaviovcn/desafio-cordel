@@ -50,3 +50,16 @@ header > p > a:hover {
         font-size: 0.9em;
     }
 }
+
+/* Main Style */
+
+main > article {
+    padding: 100px 30px;
+}
+
+main li {
+    font-size: 1.2em;
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 10px;
+}
